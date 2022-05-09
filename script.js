@@ -215,5 +215,9 @@ numbers.push(6);
  for(let animal of animals){
      // animal = 'cat';
      console.log('animal is', animal);
- }
- 
+     if (animal === 'bunny'){
+         console.log('bunny');
+     }
+    }
+    for( let i =0; i<animals.length; i++);
+
