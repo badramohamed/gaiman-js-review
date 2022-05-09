@@ -214,10 +214,19 @@ numbers.push(6);
 
  for(let animal of animals){
      // animal = 'cat';
-     console.log('animal is', animal);
-     if (animal === 'bunny'){
+     console.log('animal is', animals);
+     if (animals === 'bunny'){ // this is better
          console.log('bunny');
      }
     }
-    for( let i =0; i<animals.length; i++);
+    for( let i =0; i<animals.length; i++); {
+        console.log(animals[i]);
+    }
 
+
+    // while loops
+let BigNumber= 2**20;
+while(BigNumber>1){
+BigNumber = BigNumber / 2;
+console.log(BigNumber);
+}
