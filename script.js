@@ -189,3 +189,31 @@ console.log('yolo');
 let numbers = [1, 2 ,3, 4, 5];
 // push () is a method of the numbers array 
 numbers.push(6);
+
+/**
+ * javascropt is: a loose / dynamic typed language 
+ other languages are: stronhgly / statically typed
+ */
+
+ /**
+  * arrays
+  
+  */
+ let animals = [
+     'cat',     // 0
+      'dog',     //1
+      'bunny'];    //2
+
+ // access by index
+ let FirstAnimal = animals [0]; // cat 
+ // let LastAnimal = animals[2]; //bunny 
+
+ let LastAnimal = animals [animals.length - 1 ];    //'bunny'
+ // animals.length -1 =2 
+ //animals[2]; //bunny
+
+ for(let animal of animals){
+     // animal = 'cat';
+     console.log('animal is', animal);
+ }
+ 
